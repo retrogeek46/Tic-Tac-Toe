@@ -1,1 +1,7 @@
-81x81 tile tic-tac-toe board
+Plans
+
+1>make normal tic-tac-toe for two players (single device)
+2>add ai, unbeatable at max difficulty
+3>extend to 81x81 board for two players (single device)
+4>add ai
+5>add multiple device functionality
