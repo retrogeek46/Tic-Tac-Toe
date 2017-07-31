@@ -21,7 +21,8 @@ public class regular extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_regular);
 
-        cnt[0]=5;cnt[1]=5;cnt[2]=5;cnt[3]=5;cnt[4]=5;cnt[5]=5;cnt[6]=5;cnt[7]=5;cnt[8]=5;
+        cnt[0]=5;cnt[1]=5;cnt[2]=5;cnt[3]=5;cnt[4]=5;cnt[5]=5;cnt[6]=5;cnt[7]=5;cnt[8]=5;//setting counter, 5 (unoccupied), 1 (X)
+                                                                                         // or 0(O)
         t1= (TextView) findViewById(R.id.tv1);
         t2= (TextView) findViewById(R.id.tv2);
         t3= (TextView) findViewById(R.id.tv3);
@@ -186,7 +187,6 @@ public class regular extends AppCompatActivity {
             adbuilder.setTitle(Title);
             adbuilder.setMessage(Message);
             adbuilder.show();
-            Toast.makeText(this, "Congratulations", Toast.LENGTH_SHORT).show();
         }
     }
 
