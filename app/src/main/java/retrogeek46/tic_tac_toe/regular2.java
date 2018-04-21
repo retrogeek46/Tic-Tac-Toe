@@ -21,6 +21,7 @@ public class regular2 extends AppCompatActivity {
     TextView t1,t2,t3,t4,t5,t6,t7,t8,t9;
     int cnt[]=new int[9];
     String a;
+    private boolean turn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,8 +44,6 @@ public class regular2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 a="X";
-
-
             }
         });
         player2.setOnClickListener(new View.OnClickListener() {
